@@ -1,0 +1,17 @@
+@Example Pack Made By Denis Khatnyuk for release of beta question 101
+
+#You can use the @ symbol before a line to make it print during conversion
+
+#Use a Hashtag before a line to make the converter disregard it
+
+#Phraze a question like this:
+
+#question|answer
+
+#Here Are Some Examples.  (You can convert this file to see it in action)
+
+What is my favourite colour? Is it: green, blue, white or red?|green|yellow
+
+What is 1 + 1?|1|11
+
+You are fat|no u|
