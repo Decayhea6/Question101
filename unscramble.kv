@@ -1,0 +1,45 @@
+Unscrambler:
+
+<Unscrambler>:
+	orientation: "vertical"
+	search_input: search_box
+	output: o0
+	Label:
+		height: "40dp"
+		size_hint_y: None
+		text: "Unscrambles 1.0.0"
+		font_size:"40sp"
+	Label:
+		height: "40dp"
+		size_hint_y: None
+		text: "A Project By DECAY"
+	TextInput:
+		height: "55dp"
+		size_hint_y: None
+		id: search_box
+		focus: True
+		font_size: "30sp"
+		multiline: False
+	BoxLayout:
+		height: "80dp"
+		size_hint_y: None
+		Button:
+			text: "Unscramble"
+			on_press: root.get_words()
+		Button:
+			text: "Scramble"
+			on_press: root.encode()
+		Button:
+			text: "Define (browser)"
+			on_press: root.definition()
+	Label:
+		height: "20dp"
+		size_hint_y: None
+		text: "Results:"
+
+	Label:
+		id: o0
+		text: ""
+		font_size: "15sp"
+
+	
